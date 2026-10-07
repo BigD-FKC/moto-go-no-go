@@ -12,3 +12,11 @@ a { color: var(--accent); }
 nav { margin: 0 0 28px; font-size: 15px; }
 nav a { margin-right: 16px; }
 .card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 18px 0; }
+.app { display: flex; align-items: center; gap: 16px; margin: 0 0 20px; }
+.app img { width: 84px; height: 84px; border-radius: 19px; flex: none; }
+.button { display: inline-block; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; padding: 12px 22px; border-radius: 12px; }
+@media (prefers-color-scheme: dark) { .button { color: #17140f; } }
+ol { padding-left: 22px; }
+ol li { margin: 0 0 14px; }
+.qr { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.qr img { width: 168px; height: 168px; border-radius: 8px; flex: none; }
