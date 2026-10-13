@@ -20,3 +20,4 @@ ol { padding-left: 22px; }
 ol li { margin: 0 0 14px; }
 .qr { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .qr img { width: 168px; height: 168px; border-radius: 8px; flex: none; }
+.stamp { margin-top: 28px; font-size: 13px; }
